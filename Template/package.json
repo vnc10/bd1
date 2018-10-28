@@ -5,6 +5,7 @@
   "main": "index.html",
   "dependencies": {
     "atob": "^2.1.2",
+    "bootstrap": "^3.3.7",
     "chart.js": "2.6.0",
     "cryptiles": "^4.1.2",
     "del": "2.2.2",

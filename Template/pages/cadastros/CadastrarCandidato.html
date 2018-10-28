@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Material Admin</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="../../node_modules/mdi/css/materialdesignicons.min.css">
+  <!-- endinject -->
+  <!-- plugin css for this page -->
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="../../css/style.css">
+  <!-- endinject -->
+  <link rel="shortcut icon" href="../../images/favicon.png" />
+</head>
+<body>
+  <div class="body-wrapper">
+    <!-- partial:../../partials/_sidebar.html -->
+    <aside class="mdc-persistent-drawer mdc-persistent-drawer--open">
+      <nav class="mdc-persistent-drawer__drawer">
+        <div class="mdc-persistent-drawer__toolbar-spacer">
+          	<a href="../../index.html" class="brand-logo">
+				<img src="../../images/logo.svg" alt="logo">
+			</a>
+        </div>
+        <div class="mdc-list-group">
+					<nav class="mdc-list mdc-drawer-menu">
+						<div class="mdc-list-item mdc-drawer-item">
+							<a class="mdc-drawer-link" href="../../index.html">
+                				<i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">desktop_mac</i>
+                				Dashboard
+              				</a>
+						</div>
+						<div class="mdc-list-item mdc-drawer-item">
+							<a class="mdc-drawer-link" href="../../pages/cadastros/CadastrarCurso.html">
+                				<i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">track_changes</i>
+                				Cadastrar Curso
+              					</a>
+						</div>
+						<div class="mdc-list-item mdc-drawer-item">
+							<a class="mdc-drawer-link" href="../../pages/cadastros/CadastrarUniversidade.html">
+                				<i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">track_changes</i>
+                				Cadastrar Universidade
+              					</a>
+						</div>
+						<div class="mdc-list-item mdc-drawer-item">
+							<a class="mdc-drawer-link" href="../../pages/cadastros/CadastrarCandidato.html">
+                				<i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">track_changes</i>
+                				Cadastrar Candidato
+              					</a>
+						</div>
+						<div class="mdc-list-item mdc-drawer-item">
+							<a class="mdc-drawer-link" href="../../pages/cadastros/CadastrarEmpresa.html">
+                				<i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">track_changes</i>
+                				Cadastrar Empresa
+              					</a>
+						</div>
+						<div class="mdc-list-item mdc-drawer-item">
+							<a class="mdc-drawer-link" href="../../pages/cadastros/CadastrarVaga.html">
+                				<i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">track_changes</i>
+                				Cadastrar Vaga
+              					</a>
+						</div>
+						<div class="mdc-list-item mdc-drawer-item">
+							<a class="mdc-drawer-link" href="../../pages/cadastros/CadastrarArea.html">
+                				<i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">track_changes</i>
+                				Cadastrar Area
+              					</a>
+						</div>
+      </nav>
+    </aside>
+    <!-- partial -->
+    <!-- partial:../../partials/_navbar.html -->
+    <header class="mdc-toolbar mdc-elevation--z4 mdc-toolbar--fixed">
+      <div class="mdc-toolbar__row">
+        <section class="mdc-toolbar__section mdc-toolbar__section--align-start">
+          <a href="#" class="menu-toggler material-icons mdc-toolbar__menu-icon">menu</a>
+        </section>
+      </div>
+    </header>
+
+    <!-- partial -->
+    <div class="page-wrapper mdc-toolbar-fixed-adjust">
+      <main class="content-wrapper">
+        <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-12">
+<div class="mdc-card">
+  <section class="mdc-card__primary">
+    <h1 class="mdc-card__title mdc-card__title--large">Cadastrar um candidato</h1>
+  </section>
+  <section class="mdc-card__supporting-text">
+    <div class="mdc-layout-grid__inner">
+      <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-desktop">
+        <div class="template-demo">
+          <div id="demo-tf-box-wrapper">
+            <div id="tf-box-example" class="mdc-text-field mdc-text-field--box w-100">
+              <input required="" type="text" id="tf-box" class="mdc-text-field__input" aria-controls="name-validation-message">
+              <label for="tf-box" class="mdc-text-field__label">Nome</label>
+              <div class="mdc-text-field__bottom-line"></div>
+            </div>
+            <p class="mdc-text-field-helper-text mdc-text-field-helper-text--validation-msg" id="name-validation-msg">
+              Digite seu nome
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-desktop">
+        <div class="template-demo">
+          <div id="demo-tf-box-leading-wrapper">
+            <div id="tf-box-leading-example" class="mdc-text-field mdc-text-field--box mdc-text-field--with-leading-icon w-100">
+              <i class="material-icons mdc-text-field__icon" tabindex="0">event</i>
+              <input type="email" required="" id="tf-box-leading" class="mdc-text-field__input">
+              <label for="tf-box-leading" class="mdc-text-field__label">E-mail</label>
+              <div class="mdc-text-field__bottom-line"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+</div>
+</div>
+      </main>
+    </div>
+  </div>
+
+  <script src="../../node_modules/material-components-web/dist/material-components-web.min.js"></script>
+  <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="../../js/misc.js"></script>
+  <script src="../../js/material.js"></script>
+</body>
+</html>

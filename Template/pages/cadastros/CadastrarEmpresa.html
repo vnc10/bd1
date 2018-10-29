@@ -85,56 +85,48 @@
     <!-- partial -->
     <div class="page-wrapper mdc-toolbar-fixed-adjust">
       <main class="content-wrapper">
-        <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-12">
-<div class="mdc-card">
-  <section class="mdc-card__primary">
-    <h1 class="mdc-card__title mdc-card__title--large">Cadastrar uma empresa</h1>
-  </section>
-  <section class="mdc-card__supporting-text">
-    <div class="mdc-layout-grid__inner">
-      <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-desktop">
-        <div class="template-demo">
-          <div id="demo-tf-box-wrapper">
-            <div id="tf-box-example" class="mdc-text-field mdc-text-field--box w-100">
-              <input required pattern=".{8,}" type="text" id="tf-box" class="mdc-text-field__input" aria-controls="name-validation-message">
-              <label for="tf-box" class="mdc-text-field__label">Empresa</label>
-              <div class="mdc-text-field__bottom-line"></div>
-            </div>
-            <p class="mdc-text-field-helper-text mdc-text-field-helper-text--validation-msg" id="name-validation-msg">
-              Digite o nome da sua empresa
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-desktop">
-        <div class="template-demo">
-          <div id="demo-tf-box-leading-wrapper">
-            <div id="tf-box-leading-example" class="mdc-text-field mdc-text-field--box mdc-text-field--with-leading-icon w-100">
-              <i class="material-icons mdc-text-field__icon" tabindex="0">event</i>
-              <input type="text" id="tf-box-leading" class="mdc-text-field__input">
-              <label for="tf-box-leading" class="mdc-text-field__label">Descrição</label>
-              <div class="mdc-text-field__bottom-line"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-desktop">
-        <div class="template-demo">
-          <div id="demo-tf-outlined-wrapper">
-            <div id="tf-outlined-example" class="mdc-text-field mdc-text-field--box mdc-text-field--with-leading-icon w-100">
-              <i class="material-icons mdc-text-field__icon" tabindex="0">event</i>
-              <input type="number" required="" id="tf-outlined-input" class="mdc-text-field__input">
-              <label for="tf-box-leading" class="mdc-text-field__label">CNPJ</label>
-              <div class="mdc-text-field__bottom-line"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-</div>
-</div>
+        <!doctype html>
+        <html lang="br">
 
+        <head>
+          <!-- Required meta tags -->
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+          <!-- Bootstrap CSS -->
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+           crossorigin="anonymous">
+
+        </head>
+        <h1 style="font-family: sans-serif; font-weight: bold; color: dimgray; padding-left: 380px;">Cadastrar Empresa</h1>
+          <form>
+            <div class="container">
+              <div style="padding-left: 300px" class="col-6">
+                <div class="form-group">
+                  <label style="color: dimgray; font-family: sans-serif; font-size: large; font-weight: bold;" for="inputName">ID</label>
+                  <input type="number" required="" class="form-control" id="inputID" placeholder="ID">
+                </div>
+                <div class="form-group">
+                  <label style="color: dimgray; font-family: sans-serif; font-size: large; font-weight: bold;" for="inputQtde">Nome</label>
+                  <input type="text" required="" class="form-control" id="inputNome" placeholder="Nome">
+                </div>
+                <div class="form-group">
+                  <label style="color: dimgray; font-family: sans-serif; font-size: large; font-weight: bold;" for="inputCNPJ">CNPJ</label>
+                  <input type="number" required="" class="form-control" id="inputCNPJ" placeholder="CNPJ">
+                </div>
+                <div class="form-group">
+                  <label style="color: dimgray; font-family: sans-serif; font-size: large; font-weight: bold;" for="inputDesc">Descrição:</label>
+                  <input type="text" class="form-control" id="inputDesc">
+                </div>
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+
+              </div>
+            </div>
+            </div>
+          </form>
+
+        </body>
+        </html>
       </main>
     </div>
   </div>
